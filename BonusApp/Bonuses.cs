@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BonusApp
 {
-    public class Bonuses : BonusProvider
+    public class Bonuses
     {
         public static double TenPercent(double amount)
         {

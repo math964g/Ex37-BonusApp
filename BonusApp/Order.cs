@@ -23,15 +23,7 @@ namespace BonusApp
 
         public double GetBonus()
         {
-            return Bonuses.TenPercent(GetValueOfProducts());
-            //double bonusValueAll = 0.0;
-
-            //foreach (Product product in products)
-            //{
-            //    bonusValueAll += Bonuses.TenPercent(product.Value);
-            //}
-
-            //return bonusValueAll;
+            return Bonus(GetValueOfProducts());
         }
 
         public double GetTotalPrice()
